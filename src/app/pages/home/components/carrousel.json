@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "alt": "Granos de Cafe",
+      "image": "/assets/images/carrousel/cafe-granos.jpg"
+    },
+    {
+      "id": 2,
+      "alt": "Cafe para llevar",
+      "image":  "/assets/images/carrousel/cafe-p-llevar.jpg"
+    },
+    {
+      "id": 3,
+      "alt": "Expresso",
+      "image":  "/assets/images/carrousel/expresso-img.jpg"
+    },
+    {
+      "id": 4,
+      "alt": "Restaurante",
+      "image":  "/assets/images/carrousel/sucursal4.jpg"
+    },
+    {
+      "id": 5,
+      "alt": "Opciones Variadas de Café",
+      "image":  "/assets/images/carrousel/cafe-letras.jpg"
+    }
+  ]

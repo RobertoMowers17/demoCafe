@@ -1,1 +1,74 @@
-/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'AlteHaskGrotesk';
+    src: url('/assets/fonts/AlteHaasGroteskRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AlteHaskGrotesk';
+    src: url('/assets/fonts/AlteHaasGroteskBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Inter Variable Fonts */
+
+@font-face {
+    font-family: 'InterVariableFont';
+    src: url('/assets/fonts/static/Inter-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'InterVariableFont';
+    src: url('/assets/fonts/static/Inter-ExtraBold.ttf');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'InterVariableFont';
+    src: url('/assets/fonts/static/Inter-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Colores Personalizados */
+
+
+@theme {
+    --color-custom-blue: #7A97BB; 
+    --color-custom-darkblue: #2B64CC;
+
+    --color-custom-softOrange: hsl(35, 77%, 62%);
+    --color-custom-softRed: hsl(5, 85%, 63%);
+
+    --color-custom-offWhite: hsl(36, 100%, 99%);
+    --color-custom-grayishBlue: hsl(233, 8%, 79%);
+    --color-custom-darkGrayishBlue: hsl(236, 13%, 42%);
+    --color-custom-veryDarkBlue: hsl(240, 100%, 5%);
+
+
+    /* Colores Cafe */
+
+    --color-custom-dark-green: #2C4001; 
+    --color-custom-green: #678C18;
+    --color-custom-mate-green: #3B3F1B;
+    --color-custom-yellow: #D9910D; 
+    --color-custom-orange: #D96907;
+    --color-custom-coffee: #592202; 
+    
+}
+
+
+
+

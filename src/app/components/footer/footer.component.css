@@ -1,0 +1,19 @@
+footer {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  footer a {
+    transition: color 0.3s ease;
+  }
+  
+  footer i {
+    font-size: 1.25rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  footer i:hover {
+    transform: scale(1.1);
+    color: #ffffff;
+  }
+  

@@ -1,0 +1,26 @@
+
+
+<div class="w-full h-full flex flex-col md:flex-row items-center gap-8"
+    [ngClass]="{'md:flex-row-reverse': reverse}">
+    <!-- Imagen -->
+    <div class="w-full md:w-1/2">
+        <picture>
+            <img [src]="image" 
+                [alt]="alt" 
+                class="w-full rounded-lg shadow-md">
+        </picture>
+    </div>
+
+    <!-- Texto -->
+    <div class="w-full md:w-1/2 md:text-left">
+        <h1 class="text-2xl md:text-4xl font-bold text-gray-800">
+            {{titulo}}
+        </h1>
+        <p class="mt-4 text-gray-600 text-lg leading-relaxed">
+            {{parrafo}}
+        </p>
+    </div>
+
+</div>
+
+

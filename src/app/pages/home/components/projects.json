@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "titulo": "Restaurante 1: Col. Reforma, Oaxaca de Juarez",
+      "subtitulo": "Aliquip officia ad sit adipisicing laborum cillum elit.",
+      "imagen": "https://res.cloudinary.com/dh47cb140/image/upload/v1739217650/sucursal1_pqxjcv.jpg"
+    },
+    {
+      "id": 2,
+      "titulo": "Restaurante 1: Col. Centro, Oaxaca de Juarez",
+      "subtitulo": "Irure occaecat sit sunt qui pariatur aliquip dolor cupidatat veniam.",
+      "imagen": "https://res.cloudinary.com/dh47cb140/image/upload/v1739217640/sucrusal2_eyvefm.jpg"
+    },
+    {
+      "id": 3,
+      "titulo": "Restaurante 3: Col. San Felipe del Agua, Oax.",
+      "subtitulo": "Deserunt culpa et mollit culpa dolor.",
+      "imagen": "https://res.cloudinary.com/dh47cb140/image/upload/v1739217798/sucursal5_kuemxp.jpg"
+    }
+  ]
+  

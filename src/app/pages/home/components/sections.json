@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "titulo": "Ipsum aute quis cupidatat deserunt laboris.",
+      "parrafo": "Ex ipsum est nostrud velit aliqua irure ullamco sunt ullamco do in do ullamco. Esse adipisicing est quis amet minim aliqua nostrud. Ullamco et nulla amet nulla occaecat velit.",
+      "imagen": "https://res.cloudinary.com/dh47cb140/image/upload/v1739217650/sucursal1_pqxjcv.jpg",
+      "alt": "Ofertas Exclusivas"
+    },
+    {
+      "id": 2,
+      "titulo": "Incididunt Lorem consequat pariatur in cillum ad tempor magna non in.",
+      "parrafo": "Nisi ipsum amet adipisicing mollit sunt Lorem fugiat. Ad labore Lorem culpa ut occaecat. Adipisicing amet occaecat nisi laborum non cillum et culpa irure elit. Elit et eu elit dolore Lorem adipisicing commodo incididunt esse. Sunt ex aliqua incididunt excepteur. Reprehenderit labore aliqua velit fugiat ea eiusmod minim consectetur.",
+      "imagen": "https://res.cloudinary.com/dh47cb140/image/upload/v1739221089/section3_zjsoo2.jpg",
+      "alt": "Ofertas Exclusivas"
+    },
+    {
+      "id": 3,
+      "titulo": "Irure tempor minim adipisicing quis.",
+      "parrafo": "Adipisicing veniam ad eiusmod velit mollit laborum. Dolore enim nisi sit ea. Pariatur nulla qui quis esse magna. Veniam et veniam ullamco eiusmod mollit qui laboris officia qui. Duis deserunt commodo sint officia Lorem ad labore minim amet aliquip incididunt ut.",
+      "imagen": "https://res.cloudinary.com/dh47cb140/image/upload/v1739221103/section4_b9txh4.jpg",
+      "alt": "Ofertas Exclusivas"
+    }
+]

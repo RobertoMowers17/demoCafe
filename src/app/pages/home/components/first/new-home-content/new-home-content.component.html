@@ -1,0 +1,11 @@
+<!-- Contenedor de costado derecho de la Pagina Info, para nueva Informacion -->
+<div class="w-full h-full p-4">
+    <aside class="border-[2px] rounded-lg shadow-md border-solid border-gray-200 text-black py-[28px] px-[20px]">
+        <h1 class="text-custom-darkBlue text-4xl font-bold">NUEVO</h1>
+        <app-home-article-element
+            *ngFor="let article of articles"
+            [title]="article.titulo"
+            [subtitle]="article.subtitulo"
+        />
+    </aside>
+</div>

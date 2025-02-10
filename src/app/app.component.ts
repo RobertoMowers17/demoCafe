@@ -1,12 +1,18 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { FooterComponent } from './components/footer/footer.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  imports: [
+    NavbarComponent,
+    FooterComponent, 
+    RouterOutlet
+  ],
+  styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent{
   title = 'madboingShop';
 }
