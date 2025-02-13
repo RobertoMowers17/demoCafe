@@ -1,13 +1,30 @@
-import { Component } from "@angular/core";
-import { RouterLink, RouterLinkActive } from "@angular/router";
+import { Component, OnInit } from "@angular/core";
+import { CommonModule } from "@angular/common";
+import { ProductsContainerComponent } from "../../shared/products-container/products-container.component";
+import { FiltersComponent } from "./components/filters/filters.component";
+import products from "./products.json";
+
+interface productsItems {
+    id: number;
+    name: string;
+    category: string;
+    price: number;
+    description: string;
+    images: string[];
+  }
 
 @Component({
     selector: 'store-page',
-    imports: [RouterLink, RouterLinkActive],
+    standalone: true,
+    imports: [CommonModule, ProductsContainerComponent, FiltersComponent],
     templateUrl: './store.component.html',
     styleUrls: ['./store.component.css'],
 })
 
-export class StoreComponent{
+export class StoreComponent implements OnInit{
+    items: productsItems[] = products;
 
+    ngOnInit(): void {
+        //console.log(this.items);
+    }
 }
