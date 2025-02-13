@@ -1,0 +1,11 @@
+<div *ngFor="let branch of menus">
+  <h2>{{ branch.branch }}</h2>
+  <div *ngFor="let category of branch.products">
+    <h3>{{ category.name }}</h3>
+    <ul>
+      <li *ngFor="let item of category.items">
+        {{ item.name }} - ${{ item.price }}
+      </li>
+    </ul>
+  </div>
+</div>

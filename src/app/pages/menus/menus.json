@@ -1,0 +1,28 @@
+[
+  {
+    "branch": "Reforma",
+    "products": [
+      {
+        "name": "Entradas",
+        "items": [
+          { "name": "Bruschetta de Tomate", "price": 5.99 },
+          { "name": "Calamares Fritos", "price": 8.99 },
+          { "name": "Sopa de Cebolla", "price": 6.50 }
+        ]
+      }
+    ]
+  },
+  {
+    "branch": "San Felipe",
+    "products": [
+      {
+        "name": "Entradas",
+        "items": [
+          { "name": "Bruschetta de Tomate", "price": 5.99 },
+          { "name": "Calamares Fritos", "price": 8.99 },
+          { "name": "Sopa de Cebolla", "price": 6.50 }
+        ]
+      }
+    ]
+  }
+]
