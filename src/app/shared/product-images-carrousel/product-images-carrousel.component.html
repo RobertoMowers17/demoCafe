@@ -1,0 +1,29 @@
+<div class="relative w-full h-48 md:h-64 overflow-hidden rounded-md shadow-md">
+  <!-- Imágenes del carrusel -->
+  <div class="flex transition-transform duration-500 ease-in-out"
+       [style.transform]="'translateX(-' + (currentIndex * 100) + '%)'">
+    <img *ngFor="let image of images" [src]="image" class="w-full h-48 md:h-64 object-scale-down flex-shrink-0">
+  </div>
+
+  <!-- Botón Anterior -->
+  <button 
+    type="button" 
+    class="absolute top-1/2 start-2 -translate-y-1/2 z-30 flex items-center justify-center w-6 h-6 rounded-full 
+           bg-white/10 group-hover:bg-white/30 transition duration-300 cursor-pointer focus:outline-none"
+    (click)="prev()">
+    <svg class="w-3 h-3 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+    </svg>
+  </button>
+
+  <!-- Botón Siguiente -->
+  <button 
+    type="button" 
+    class="absolute top-1/2 end-2 -translate-y-1/2 z-30 flex items-center justify-center w-6 h-6 rounded-full 
+           bg-white/10 group-hover:bg-white/30 transition duration-300 cursor-pointer focus:outline-none"
+    (click)="next()">
+    <svg class="w-3 h-3 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+    </svg>
+  </button>
+</div>
