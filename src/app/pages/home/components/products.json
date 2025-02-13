@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "name": "Vans Rojos",
+      "price": 1200,
+      "category": "Zapatos Casuales",
+      "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
+      "images": [
+            "https://res.cloudinary.com/dh47cb140/image/upload/v1739388801/vans_rojos_jf9ztg.jpg",
+            "https://res.cloudinary.com/dh47cb140/image/upload/v1739228263/cup_pb5va7.jpg"
+        ]       
+    },
+    {
+        "id": 2,
+        "name": "Bote de Agua Deportivo 500ml",
+        "price": 350,
+        "category": "Accesorios Deportivos",
+        "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
+        "images": [
+              "https://res.cloudinary.com/dh47cb140/image/upload/v1739388797/bottle_of_water_ftsqe5.jpg",
+              "https://res.cloudinary.com/dh47cb140/image/upload/v1739228263/cup_pb5va7.jpg"
+          ]       
+    },
+    {
+        "id": 3,
+        "name": "Perfume CHANEL",
+        "price": 1999.99,
+        "category": "Accesorios",
+        "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
+        "images": [
+              "https://res.cloudinary.com/dh47cb140/image/upload/v1739388792/perfume_se5dtk.jpg",
+              "https://res.cloudinary.com/dh47cb140/image/upload/v1739228263/cup_pb5va7.jpg"
+          ]       
+    }
+]

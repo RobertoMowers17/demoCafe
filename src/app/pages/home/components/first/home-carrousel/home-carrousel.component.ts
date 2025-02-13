@@ -2,7 +2,6 @@ import { Component, AfterViewInit  } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FlowbiteService } from '../../../../../services/flowbite.service';
 import carrouselItems from '../../carrousel.json';
-import { ItemCarrouselComponent } from '../item-carrousel/item-carrousel.component';
 
 interface ItemCarrousel {
   id: number;
@@ -12,7 +11,7 @@ interface ItemCarrousel {
 
 @Component({
   selector: 'app-home-carrousel',
-  imports: [ItemCarrouselComponent, CommonModule],
+  imports: [CommonModule],
   templateUrl: './home-carrousel.component.html',
   styleUrl: './home-carrousel.component.css'
 })
