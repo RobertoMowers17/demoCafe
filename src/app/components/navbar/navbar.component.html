@@ -1,4 +1,4 @@
-<div class="flex flex-row w-full h-full border-b border-[2px] bg-custom-offWhite text-custom-dark-green p-6 items-center justify-between">
+<div class="flex flex-row w-full h-full border-b border-[2px] border-gray-200 bg-custom-offWhite text-custom-dark-green p-6 items-center justify-between">
   
   <!-- Título del NavBar -->
   <h1 class="text-3xl md:text-5xl text-custom-dark-green font-bold">MONTE CARLO</h1>
@@ -18,6 +18,9 @@
       <a routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page" class="text-2xl md:text-3xl text-custom-dark-green font-bold hover:text-custom-green transition-colors">HOME</a>
     </li>
     <li>
+      <a routerLink="/menus" routerLinkActive="active" ariaCurrentWhenActive="page" class="text-2xl md:text-3xl text-custom-dark-green font-bold hover:text-custom-green transition-colors">MENUS</a>
+    </li>
+    <li>
       <a routerLink="/store" routerLinkActive="active" ariaCurrentWhenActive="page" class="text-2xl md:text-3xl text-custom-dark-green font-bold hover:text-custom-green transition-colors">TIENDA</a>
     </li>
     <li>
@@ -29,7 +32,10 @@
   <!-- Menú desplegable en móviles -->
   <ul *ngIf="isMenuOpen" class="absolute top-16 left-0 w-full bg-custom-offWhite shadow-lg md:hidden flex flex-col space-y-4 p-4 z-100">
     <li>
-      <a routerLink="/home" (click)="isMenuOpen = false" class="block text-xl text-custom-dark-green font-bold hover:text-custom-green transition-colors">INFO</a>
+      <a routerLink="/home" (click)="isMenuOpen = false" class="block text-xl text-custom-dark-green font-bold hover:text-custom-green transition-colors">HOME</a>
+    </li>
+    <li>
+      <a routerLink="/menus" (click)="isMenuOpen = false" class="block text-xl text-custom-dark-green font-bold hover:text-custom-green transition-colors">MENUS</a>
     </li>
     <li>
       <a routerLink="/store" (click)="isMenuOpen = false" class="block text-xl text-custom-dark-green font-bold hover:text-custom-green transition-colors">TIENDA</a>
