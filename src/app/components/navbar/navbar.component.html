@@ -1,12 +1,10 @@
-<div class="flex flex-row w-full h-full border-b border-[2px] border-gray-200 bg-custom-offWhite text-custom-dark-green p-6 items-center justify-between">
+<div class="flex flex-row w-full h-full border-b border-[2px] border-gray-200 bg-custom-offWhite font-avserif p-6 items-center justify-between z-100">
   
   <!-- Título del NavBar -->
   <h1 class="text-3xl md:text-5xl text-custom-dark-green font-bold">MONTE CARLO</h1>
 
-
-
-  <!-- Botón hamburguesa (solo en móviles) -->
-  <button (click)="isMenuOpen = !isMenuOpen" class="md:hidden text-custom-dark-green focus:outline-none hover:text-custom-green transition-colors cursor-pointer">
+  <!-- Botón hamburguesa -->
+  <button (click)="toggleMenu()" class="md:hidden text-custom-dark-green focus:outline-none hover:text-custom-green transition-colors cursor-pointer">
     <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
     </svg>
@@ -29,21 +27,24 @@
   </ul>
 
 
-  <!-- Menú desplegable en móviles -->
-  <ul *ngIf="isMenuOpen" class="absolute top-16 left-0 w-full bg-custom-offWhite shadow-lg md:hidden flex flex-col space-y-4 p-4 z-100">
+  <!-- Menú desplegable en móviles con animación -->
+  <ul [ngClass]="{ 'scale-y-100 opacity-100': isMenuOpen, 'scale-y-0 opacity-0 pointer-events-none': !isMenuOpen }"
+      class="absolute top-16 left-0 w-full bg-custom-offWhite shadow-lg md:hidden flex flex-col space-y-4 p-4 z-50 
+            transform origin-top transition-all duration-300 ease-out">
     <li>
-      <a routerLink="/home" (click)="isMenuOpen = false" class="block text-xl text-custom-dark-green font-bold hover:text-custom-green transition-colors">HOME</a>
+      <a routerLink="/home" (click)="toggleMenu()" class="block text-xl text-custom-dark-green font-bold hover:text-custom-green transition-colors">HOME</a>
     </li>
     <li>
-      <a routerLink="/menus" (click)="isMenuOpen = false" class="block text-xl text-custom-dark-green font-bold hover:text-custom-green transition-colors">MENUS</a>
+      <a routerLink="/menus" (click)="toggleMenu()" class="block text-xl text-custom-dark-green font-bold hover:text-custom-green transition-colors">MENUS</a>
     </li>
     <li>
-      <a routerLink="/store" (click)="isMenuOpen = false" class="block text-xl text-custom-dark-green font-bold hover:text-custom-green transition-colors">TIENDA</a>
+      <a routerLink="/store" (click)="toggleMenu()" class="block text-xl text-custom-dark-green font-bold hover:text-custom-green transition-colors">TIENDA</a>
     </li>
     <li>
-      <a routerLink="/explore" (click)="isMenuOpen = false" class="block text-xl text-custom-dark-green font-bold hover:text-custom-green transition-colors">EXPLORAR</a>
+      <a routerLink="/explore" (click)="toggleMenu()" class="block text-xl text-custom-dark-green font-bold hover:text-custom-green transition-colors">EXPLORAR</a>
     </li>
   </ul>
+
 
 </div>
 
