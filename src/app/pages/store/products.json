@@ -1,200 +1,57 @@
 [
     {
-      "id": 1,
-      "name": "Vans Rojos",
-      "price": 1200,
-      "category": "Zapatos Casuales",
-      "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
-      "images": [
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739388801/vans_rojos_jf9ztg.jpg",
+        "id": 1,
+        "name": "Pizza ",
+        "price": 300,
+        "category": "Plato Fuerte",
+        "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
+        "images": [
+            "https://res.cloudinary.com/dh47cb140/image/upload/v1739554257/pizza_kj3q4h.jpg",
             "https://res.cloudinary.com/dh47cb140/image/upload/v1739228263/cup_pb5va7.jpg"
         ]       
     },
     {
-        "id": 2,
-        "name": "Bote de Agua Deportivo 500ml",
-        "price": 350,
-        "category": "Accesorios Deportivos",
-        "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
-        "images": [
-              "https://res.cloudinary.com/dh47cb140/image/upload/v1739388797/bottle_of_water_ftsqe5.jpg",
-              "https://res.cloudinary.com/dh47cb140/image/upload/v1739228263/cup_pb5va7.jpg"
-          ]       
+    "id": 2,
+    "name": "Hamburguesa",
+    "price": 120,
+    "category": "Plato Fuerte",
+    "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
+    "images": [
+            "https://res.cloudinary.com/dh47cb140/image/upload/v1739554256/hamburguesa_n8cbq5.jpg",
+            "https://res.cloudinary.com/dh47cb140/image/upload/v1739228263/cup_pb5va7.jpg"
+        ]       
     },
     {
         "id": 3,
-        "name": "Perfume CHANEL",
-        "price": 1999.99,
-        "category": "Accesorios",
+        "name": "Baguette",
+        "price": 110,
+        "category": "Plato Fuerte",
         "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
         "images": [
-              "https://res.cloudinary.com/dh47cb140/image/upload/v1739388792/perfume_se5dtk.jpg",
-              "https://res.cloudinary.com/dh47cb140/image/upload/v1739228263/cup_pb5va7.jpg"
-          ]       
+            "https://res.cloudinary.com/dh47cb140/image/upload/v1739554256/baguette_upy1wu.jpg",
+            "https://res.cloudinary.com/dh47cb140/image/upload/v1739228263/cup_pb5va7.jpg"
+        ]       
     },
     {
-    "id": 4,
-    "name": "Tennis Deportivos Rojos",
-    "price": 999.90,
-    "category": "Zapatos Deportivos",
-    "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
-    "images": [
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739388792/tennis_rojos_jv3c5s.jpg",
+        "id": 4,
+        "name": "Pasta",
+        "price": 220,
+        "category": "Plato Fuerte",
+        "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
+        "images": [
+            "https://res.cloudinary.com/dh47cb140/image/upload/v1739554251/pasta_faiy2u.jpg",
             "https://res.cloudinary.com/dh47cb140/image/upload/v1739228263/cup_pb5va7.jpg"
         ]       
     },
     {
         "id": 5,
-        "name": "Playera Blanca con Estampado Azul",
-        "price": 450.50,
-        "category": "Ropa Deportiva",
+        "name": "Americano Y Croissant",
+        "price": 80,
+        "category": "Promocion",
         "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
         "images": [
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739388790/playera_estampado_azul_xbjtxh.jpg",
+            "https://res.cloudinary.com/dh47cb140/image/upload/v1739554725/cafe_y_pan_gf3fkj.jpg",
             "https://res.cloudinary.com/dh47cb140/image/upload/v1739228263/cup_pb5va7.jpg"
         ]       
-    },
-    {
-        "id": 6,
-        "name": "Camisa Azul Casual",
-        "price": 999.90,
-        "category": "Camisas",
-        "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
-        "images": [
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739388790/camisa_azul_czosik.jpg",
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739228263/cup_pb5va7.jpg"
-        ]       
-    },
-    {
-    "id": 7,
-    "name": "Tennis Multicolor",
-    "price": 1500.20,
-    "category": "Zapatos Casuales",
-    "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
-    "images": [
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739388786/tennis_multicolor_yh8n6r.jpg",
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739228263/cup_pb5va7.jpg"
-        ]       
-    },
-    {
-        "id": 8,
-        "name": "Tennis Negros",
-        "price": 600.50,
-        "category": "Zapatos Deportivos",
-        "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
-        "images": [
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739388786/tennis_ueumqw.jpg",
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739228263/cup_pb5va7.jpg"
-        ]       
-    },
-    {
-        "id": 9,
-        "name": "Cafe Clasico 100% organico",
-        "price": 15.45,
-        "category": "Cafe",
-        "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
-        "images": [
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739228260/shirt_baewjr.jpg",
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739228263/cup_pb5va7.jpg"
-        ]       
-    },
-    {
-    "id": 10,
-    "name": "Cafe Clasico 100% organico",
-    "price": 15.45,
-    "category": "Cafe",
-    "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
-    "images": [
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739228260/shirt_baewjr.jpg",
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739228263/cup_pb5va7.jpg"
-        ]       
-    },
-    {
-        "id": 11,
-        "name": "Cafe Clasico 100% organico",
-        "price": 15.45,
-        "category": "Cafe",
-        "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
-        "images": [
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739228260/shirt_baewjr.jpg",
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739228263/cup_pb5va7.jpg"
-        ]       
-    },
-    {
-        "id": 12,
-        "name": "Cafe Clasico 100% organico",
-        "price": 15.45,
-        "category": "Cafe",
-        "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
-        "images": [
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739228260/shirt_baewjr.jpg",
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739228263/cup_pb5va7.jpg"
-        ]       
-    },
-    {
-    "id": 13,
-    "name": "Cafe Clasico 100% organico",
-    "price": 15.45,
-    "category": "Cafe",
-    "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
-    "images": [
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739228260/shirt_baewjr.jpg",
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739228263/cup_pb5va7.jpg"
-        ]       
-    },
-    {
-        "id": 14,
-        "name": "Cafe Clasico 100% organico",
-        "price": 15.45,
-        "category": "Cafe",
-        "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
-        "images": [
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739228260/shirt_baewjr.jpg",
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739228263/cup_pb5va7.jpg"
-        ]       
-    },
-    {
-        "id": 15,
-        "name": "Cafe Clasico 100% organico",
-        "price": 15.45,
-        "category": "Cafe",
-        "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
-        "images": [
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739228260/shirt_baewjr.jpg",
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739228263/cup_pb5va7.jpg"
-        ]       
-    },
-    {
-    "id": 16,
-    "name": "Cafe Clasico 100% organico",
-    "price": 15.45,
-    "category": "Cafe",
-    "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
-    "images": [
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739228260/shirt_baewjr.jpg",
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739228263/cup_pb5va7.jpg"
-        ]       
-    },
-    {
-        "id": 17,
-        "name": "Cafe Clasico 100% organico",
-        "price": 15.45,
-        "category": "Cafe",
-        "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
-        "images": [
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739228260/shirt_baewjr.jpg",
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739228263/cup_pb5va7.jpg"
-        ]       
-    },
-    {
-        "id": 18,
-        "name": "Cafe Clasico 100% organico",
-        "price": 15.45,
-        "category": "Cafe",
-        "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
-        "images": [
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739228260/shirt_baewjr.jpg",
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739228263/cup_pb5va7.jpg"
-        ]       
-    }  
+    }
 ]
