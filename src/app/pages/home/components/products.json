@@ -1,35 +1,35 @@
 [
     {
-      "id": 1,
-      "name": "Vans Rojos",
-      "price": 1200,
-      "category": "Zapatos Casuales",
-      "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
-      "images": [
-            "https://res.cloudinary.com/dh47cb140/image/upload/v1739388801/vans_rojos_jf9ztg.jpg",
+        "id": 1,
+        "name": "Pizza ",
+        "price": 300,
+        "category": "Plato Fuerte",
+        "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
+        "images": [
+            "https://res.cloudinary.com/dh47cb140/image/upload/v1739554257/pizza_kj3q4h.jpg",
             "https://res.cloudinary.com/dh47cb140/image/upload/v1739228263/cup_pb5va7.jpg"
         ]       
     },
     {
-        "id": 2,
-        "name": "Bote de Agua Deportivo 500ml",
-        "price": 350,
-        "category": "Accesorios Deportivos",
-        "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
-        "images": [
-              "https://res.cloudinary.com/dh47cb140/image/upload/v1739388797/bottle_of_water_ftsqe5.jpg",
-              "https://res.cloudinary.com/dh47cb140/image/upload/v1739228263/cup_pb5va7.jpg"
-          ]       
+    "id": 2,
+    "name": "Hamburguesa",
+    "price": 120,
+    "category": "Plato Fuerte",
+    "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
+    "images": [
+            "https://res.cloudinary.com/dh47cb140/image/upload/v1739554256/hamburguesa_n8cbq5.jpg",
+            "https://res.cloudinary.com/dh47cb140/image/upload/v1739228263/cup_pb5va7.jpg"
+        ]       
     },
     {
-        "id": 3,
-        "name": "Perfume CHANEL",
-        "price": 1999.99,
-        "category": "Accesorios",
+        "id": 5,
+        "name": "Americano Y Croissant",
+        "price": 80,
+        "category": "Promocion",
         "description": "Irure adipisicing do esse sint sunt sint Lorem incididunt do.",
         "images": [
-              "https://res.cloudinary.com/dh47cb140/image/upload/v1739388792/perfume_se5dtk.jpg",
-              "https://res.cloudinary.com/dh47cb140/image/upload/v1739228263/cup_pb5va7.jpg"
-          ]       
+            "https://res.cloudinary.com/dh47cb140/image/upload/v1739554725/cafe_y_pan_gf3fkj.jpg",
+            "https://res.cloudinary.com/dh47cb140/image/upload/v1739228263/cup_pb5va7.jpg"
+        ]       
     }
 ]
