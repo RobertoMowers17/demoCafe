@@ -1,0 +1,13 @@
+<div class="w-full h-full min-h-screen flex flex-col sm:flex">
+
+    <!-- NavBar que se mantiene al final -->
+    <app-navbar/>
+
+    <!-- Contenido principal, que se expande para empujar el footer hacia abajo -->
+    <div class="flex-1 overflow-auto grow">
+        <router-outlet></router-outlet>
+    </div>
+
+    <!-- Footer que se mantiene al final -->
+    <app-footer></app-footer>   
+</div>
