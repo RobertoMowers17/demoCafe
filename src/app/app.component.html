@@ -1,13 +1,2 @@
-<div class="main-container w-full min-h-screen sm:flex">
+<router-outlet></router-outlet>
 
-    <!-- NavBar que se mantiene al final -->
-    <app-navbar/>
-
-    <!-- Contenido principal, que se expande para empujar el footer hacia abajo -->
-    <div class="flex-1 overflow-auto mt-8 ml-8 mr-5 grow">
-        <router-outlet></router-outlet>
-    </div>
-
-    <!-- Footer que se mantiene al final -->
-    <app-footer></app-footer>   
-</div>
